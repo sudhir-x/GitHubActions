@@ -37,13 +37,17 @@ jobs:
           echo test, and deploy your project.
 
 
-build-api:
+   build-api:
     needs: build
     runs-on: windows-latest
-    run: echo "This is sudhir. Hello."
+    steps:
+        name:"SKD1"
+        run: echo "This is sudhir. Hello."
 
 
-build-app:
+   build-app:
     needs: build
     runs-on: ubuntu-latest
-    run: echo "This is sudhir. Hello."
+    steps:
+        name:"SKD2"
+        run: echo "This is sudhir. Hello."
