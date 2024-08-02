@@ -34,3 +34,11 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+  
+
+  build-api:
+    runs-on: windows-latest
+    steps:
+      - run: echo "Building API"
+        
+    
